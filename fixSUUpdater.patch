@@ -1,0 +1,13 @@
+Index: SUUpdater.m
+===================================================================
+--- SUUpdater.m	(revision 96)
++++ SUUpdater.m	(working copy)
+@@ -120,6 +120,8 @@
+ 		// If either one is still unspecified, ask the user what they think.
+ 		if (nil == shouldCheckAtStartup)
+ 			[self showUserChoicePanel];
++		else if ([shouldCheckAtStartup boolValue])
++			[self checkForUpdatesInBackground];
+ 	}
+ }
+ 

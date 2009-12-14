@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%.0lfk of %.0lfk</key>
+	<string>%1$.0lfk av %2$.0lfk</string>
+	<key>%@ %@ has been installed and will be ready to use next time %@ starts! Would you like to relaunch now?</key>
+	<string>%1$@ %2$@ har installerats och är redo att användas nästa gång du startar %3$@! Vill du starta om programmet nu?</string>
+	<key>%@ %@ is currently the newest version available.</key>
+	<string>%1$@ %2$@ är den senaste tillgängliga versionen.</string>
+	<key>%@ %@ is now available (you have %@). Would you like to download it now?</key>
+	<string>%1$@ %2$@ är nu tillgänglig (du har %3$@). Vill du ladda ner den nu?</string>
+	<key>%@ does not have permission to write to the application's directory! Are you running off a disk image? If not, ask your system administrator for help.</key>
+	<string>%@ har inte rättigheter att skriva till programmets mapp! Kör du programmet från en skivavbild? Om inte, be din systemadministratör om hjälp.</string>
+	<key>A new version of %@ has been installed!</key>
+	<string>En ny version av %@ har installerats!</string>
+	<key>A new version of %@ is available!</key>
+	<string>En ny version av %@ är tillgänglig!</string>
+	<key>An error occurred during installation. Please try again later.</key>
+	<string>Ett fel inträffade under installationen. Försök igen senare.</string>
+	<key>An error occurred in retrieving update information. Please try again later.</key>
+	<string>Ett fel inträffade när information om uppdateringen togs emot. Försök igen senare.</string>
+	<key>An error occurred in retrieving update information; are you connected to the internet? Please try again later.</key>
+	<string>Ett fel inträffade när information om uppdateringen togs emot. Är du uppkopplad mot internet? Vänligen försök igen senare.</string>
+	<key>An error occurred while extracting the archive. Please try again later.</key>
+	<string>Ett fel inträffade när programmet packades upp. Försök igen senare.</string>
+	<key>An error occurred while trying to download the file. Please try again later.</key>
+	<string>Ett fel inträffade när filen laddades ner. Försök igen senare.</string>
+	<key>An update is already in progress!</key>
+	<string>Programmet håller på att uppdateras!</string>
+	<key>Anonymous system profile information is used to help us plan future development work.</key>
+	<string>Anonym systeminformation används för att hjälpa oss att planera framtida utvecklingsarbete.</string>
+	<key>Cancel</key>
+	<string>Avbryt</string>
+	<key>Check for updates on startup?</key>
+	<string>Leta efter uppdateringar vid start</string>
+	<key>Downloading update...</key>
+	<string>Laddar ner ny version...</string>
+	<key>Extracting update...</key>
+	<string>Packar upp uppdatering...</string>
+	<key>Include anonymous system profile?</key>
+	<string>Skicka med anonym systeminformation?</string>
+	<key>Install and Relaunch</key>
+	<string>Installera och starta om programmet</string>
+	<key>Installing update...</key>
+	<string>Installerar uppdatering...</string>
+	<key>No</key>
+	<string>Nej</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>Ready to install!</key>
+	<string>Klar att installera!</string>
+	<key>Update Error!</key>
+	<string>Uppdateringsfel!</string>
+	<key>Updating %@</key>
+	<string>Uppdaterar %@</string>
+	<key>Would you like %@ to check for updates on startup? If not, you can initiate the check manually from the application menu.</key>
+	<string>Vill du att %@ letar efter uppdateringar när programmet startar? Annars kan du göra en manuell sökning från Adium-menyn.</string>
+	<key>Yes</key>
+	<string>Ja</string>
+	<key>You're up to date!</key>
+	<string>Du har senaste versionen!</string>
+</dict>
+</plist>

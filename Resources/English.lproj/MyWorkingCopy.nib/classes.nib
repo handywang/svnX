@@ -1,0 +1,140 @@
+{
+    IBClasses = (
+        {
+            CLASS = DrawerLogView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_view" = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyDragSupportWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {compare = id; compareUrl = id; validate = id; }; 
+            CLASS = MyFileMergeController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                objectController = NSObjectController; 
+                svnLogView = MySvnLogView; 
+                svnLogView1 = MySvnLogView; 
+                svnLogView2 = MySvnLogView2; 
+                svnSheet = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = MySvn; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {search = id; }; 
+            CLASS = MySvnFilesArrayController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = MyWorkingCopy; }; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            CLASS = MySvnOperationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                arrayController = NSArrayController; 
+                commitMessage = NSTextView; 
+                objectController = NSObjectController; 
+                svnSheet = NSWindow; 
+                targetBrowser = MySvnRepositoryBrowserView; 
+                targetName = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {openWorkingCopy = id; }; 
+            CLASS = MyWorkingCopy; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = MyWorkingCopyController; 
+                svnFilesAC = MySvnFilesArrayController; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {
+                changeFilter = id; 
+                changeMode = id; 
+                doubleClickInTableView = id; 
+                mergeSheetDoClick = id; 
+                mergeSheetURLChanged = id; 
+                openAWorkingCopy = id; 
+                openRepository = id; 
+                performAction = id; 
+                refresh = id; 
+                revealInFinder = id; 
+                svnDiff = id; 
+                svnUpdate = id; 
+                togglePropsView = id; 
+                toggleSidebar = id; 
+                updateSheetDoClick = id; 
+            }; 
+            CLASS = MyWorkingCopyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commitPanel = id; 
+                commitPanelText = id; 
+                document = MyWorkingCopy; 
+                drawerLogView = DrawerLogView; 
+                filterView = NSPopUpButton; 
+                mergeSheet = NSWindow; 
+                modeView = NSControl; 
+                outliner = id; 
+                progressIndicator = id; 
+                renamePanel = NSPanel; 
+                renamePanelTextField = NSTextField; 
+                sidebar = NSDrawer; 
+                splitView = id; 
+                statusView = NSControl; 
+                svnFilesAC = MySvnFilesArrayController; 
+                switchPanel = NSWindow; 
+                switchPanelDestinationTextField = NSTextField; 
+                switchPanelRelocateButton = NSButton; 
+                switchPanelSourceTextField = NSTextField; 
+                tableResult = id; 
+                toolbar = id; 
+                updateSheet = NSWindow; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSResponder; 
+        }, 
+        {
+            CLASS = MyWorkingCopyToolbar; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controller = MyWorkingCopyController; 
+                filterView = id; 
+                modeView = id; 
+                refreshView = id; 
+                searchView = id; 
+                window = id; 
+                workingCopyPathView = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            CLASS = OutlinerDataSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = id; document = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = RepoItemView; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            CLASS = SplitViewDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = id; splitView = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
